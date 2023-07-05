@@ -1,0 +1,124 @@
+@charset "EUC-KR";
+html {
+		background-color: #ebebeb;
+	}
+	.pageHeader{
+		padding: 40px 0;
+	}
+	
+	.logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		width: 180px;
+		height: 68px;
+	}
+	
+	form {
+		display: block;
+		margin: 0 auto;
+		margin-top: 0em;
+		width: 540px;
+		height: auto;
+	}
+	
+	#boxes {
+		box-sizing: border-box;
+		padding: 40px 0;
+		border: 1px solid lightgrey;
+		background-color: white;
+	}
+	
+	#input {
+		margin: 0 100px;
+	}
+	
+	#inputGroup {
+		text-align: center;
+	}
+	
+	#input {
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
+	.label-wrapper {
+		width: 160px;
+		text-align: left;
+		padding-left: 30px;
+		font-weight: normal;
+		padding-bottom: 5px;
+	}
+	
+	#lb {
+		font-size: 20px;
+		color: grey;
+	}
+	
+	input {
+		padding-left: 8px;
+		font-size: 20px;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+		height: 40px;
+		width: 310px;
+	}
+	
+	.find-a {
+		background-color: transparent;
+		border: none;
+		color: #808080;
+	}
+	
+	.find-a:hover{
+		cursor: pointer;
+	}
+	
+	#divide {
+		color: #808080;
+	}	
+	
+	#submit {
+		font-size: 18px;
+		background-color: #fec5e5;
+		color: white;
+		height: 50px;
+		width: 280px;
+	}
+	
+	#submit:hover {
+		background-color: #faaad8;
+		cursor: pointer;
+		font-weight: bold;
+		border: 2px solid grey;
+
+	}
+	
+	#signup {
+		text-align: center;
+		font-size: 18px;
+		background-color: #fec5e5;
+		color: white;
+		height: 50px;
+		width: 280px;
+	}
+	
+	#signup:hover {
+		background-color: #faaad8;
+		cursor: pointer;
+		font-weight: bold;
+		border: 2px solid grey;
+
+	}
+	
+	#footer {
+		min-width: 540px;
+		padding: 40px 0 60px;
+		border-top: 0;
+	}
+	
+	#footer .copyright {
+		font-size: 13px;
+		color: #757271;
+		text-align: center;
+	}
